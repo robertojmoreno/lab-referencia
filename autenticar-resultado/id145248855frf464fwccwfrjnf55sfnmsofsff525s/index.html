@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .button {
+            padding: 10px;
+        }
+
+        h3 {
+            color: #302e2eb0 !important;
+        }
+
+        body, p, td {
+            font-family: verdana;
+        }
+    </style>
+
+</head>
+<body style="background-color: rgb(205,211,225);">
+    <div class="h-screen w-full vx-row no-gutteer items-center justify-center m-0">
+        <div class="vx-col w-11/12 my-4 mb-32 sm:w-4/5 md:w-3/5 lg:w-3/4 xl:w-3/5 mx-auto self-center">
+
+            <div class="vx-card " style="max-width:500px; margin:auto;">
+                <div class="vx-card__collapsible-content vs-con-loading__container">
+                    <div class="full-page-bg-color">
+                        <div>
+                            <!--
+                                    <div class="vx-col hidden sm:hidden md:hidden lg:block lg:w-1/2 mx-auto self-center">
+                                        <img src="referencia.png" alt="Referencia" style="width:80%;" class="m-auto">
+                                    </div>
+                                    --->
+                            <div class="md:p-8 py-12 px-5 vx-col w-full  self-center d-theme-dark-bg" style="border:solid  10px darkgreen">
+
+
+                                <div class="mb-8 vx-col sm:block md:block  mx-auto self-center">
+                                    <img src="https://resultados.labreferencia.com/Content/images/logoref.png" alt="Referencia" style="width:80%;" class="m-auto">
+                                </div>
+                                <div>
+                                    
+
+<form action="pagar.aspx" method="post">
+    <input type="hidden" name="id" value='<%=Request["id"] %>' />
+
+
+    <div>
+        <input type="hidden" id="paso" value="1" />
+        <div class="vx-card__title mb-8">
+            <h4 class="mb-4 text-md" style="text-align: center">AUTENTICACI&Oacute;N DE RESULTADO</h4>
+        </div>
+
+            <div class="vs-component vs-con-input-label vs-input w-full no-icon-border mt-8 vs-input-primary">
+                <p style="text-align: center; ">
+                    <b>ANDRES DE JESUS ARIAS MOJICA</b>
+                    <br />
+                    402-2575277-9
+                </p>
+                <br />
+                <p style="text-align: center; ">
+                    <b>No. de Lab.</b>
+                    <br />
+                    20072011528
+                </p>
+                <br />
+
+                <p style="text-align: center; ">
+                    <b>Fecha  de Toma de Muestra</b>
+                    <br />
+                    29/10/2021
+                </p>
+                <br />
+                <p style="text-align: center;">
+                    <b>Fecha  de Reporte</b>
+                    <br />
+                    30/10/2021 13:47
+                </p>
+                <br />
+                <p style="text-align: center;">
+                    <b>Resultado</b>
+                    <br />
+                    SARS-CoV-2 RNA<br>NO DETECTADO                                        
+                </p>
+                <br />
+            </div>
+    </div>
+</form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div style="max-width:500px; margin:auto">
+                <img src="https://resultados.labreferencia.com/Content/autenticar/img/topimg.jpg" alt="" style="width:100%;" />
+               
+                <div class="md:p-8 py-5 px-5 w-full self-center d-theme-dark-bg" style="border:solid  10px darkgreen; width:100%; padding:10px">
+
+                    <p >
+                        Como parte de nuestro compromiso en garantizar la veracidad de los resultados,
+                        hacemos de tu conocimiento algunos aspectos de validaci&oacute;n:
+                    </p>
+                    <br>
+                    <table id="tar">
+                        <tr valign="top">
+                            <td width="15">1.</td>
+                            <td>
+                                Cuando ingresas a consultar tus resultados y antes de completar tus datos, verifica que la direcci&oacute;n sea:
+                                <div class="vx-row" style="margin:auto">
+                                    <a href='https://resultados.labreferencia.com'>https://resultados.</a><a href='https://resultados.labreferencia.com'>labreferencia.com/</a>
+                                </div>
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td width="15">2.</td>
+                            <td>
+                                Identifica el <span style="color:darkgreen;font-weight:bold">C&oacute;digo QR</span> ubicado en la esquina derecha superior de los resultados.<br><br>
+                                <div class="vx-row" style="margin:auto">
+                                    <img src="https://resultados.labreferencia.com/Content/autenticar/img/res.png" style="width:80%" />
+                                </div>
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td width="15">3.</td>
+                            <td>
+                                Escanea el <span style="color:darkgreen;font-weight:bold">C&oacute;digo QR</span>. Los resultados solo son autenticados v&iacute;a QR desde la p&aacute;gina web URL:<br>
+                                <div class="vx-row" style="margin:auto">
+                                    <a href='https://resultados.labreferencia.com/autenticacion/?id='>https://resultados.labreferencia.com/</a><a href='https://resultados.labreferencia.com/autenticacion/?id='>autenticacion/?id=</a>
+                                </div>
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td width="15">4.</td>
+                            <td>Confirma los detalles en nuestro portal de autenticaci&oacute;n:</td>
+                        </tr>
+                        <tr>
+                            <td width="15"></td>
+                            <td style="padding-left:20px">
+                                <br>
+                                <ul>
+                                    <li>Nombre</li>
+                                    <li>N&uacute;mero de identificaci&oacute;n</li>
+                                    <li>No. de laboratorio</li>
+                                    <li>Fecha de toma de reporte</li>
+                                    <li>Resultado</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p>
+                        Ante cualquier informaci&oacute;n adicional, favor cont&aacute;ctanos al (809) 221-5545, opci&oacute;n 2 o v&iacute;a correo electr&oacute;nico a:
+                        <div class="vx-row" style="margin:auto">
+                            <a href="mailto:servicioalcliente@labreferencia.com">servicioalcliente</a><a href="mailto:servicioalcliente@labreferencia.com">@labreferencia.com</a>
+                        </div>
+
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+</body>
+</html>
